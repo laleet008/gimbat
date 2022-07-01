@@ -23,7 +23,7 @@ const Features = () => {
             alt="easy to use"
           />
           <h2 className="my-6 font-bold text-2xl">Different Gestures</h2>
-          <p className="md:min-w-[400px] md:text-right text-center text-lg">
+          <p className="md:min-w-[400px]  text-center text-lg">
             Lorem ipsum dolor sit dipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation.
@@ -36,7 +36,7 @@ const Features = () => {
             alt="easy to use"
           />
           <h2 className="my-6 font-bold text-2xl">Easy to use</h2>
-          <p className="md:min-w-[400px] md:text-right text-center text-lg">
+          <p className="md:min-w-[400px]  text-center text-lg">
             Lorem ipsum dolor sit dipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation.
@@ -49,7 +49,7 @@ const Features = () => {
             alt="easy to use"
           />
           <h2 className="my-6 font-bold text-2xl">Awesome Design</h2>
-          <p className="md:min-w-[400px] md:text-right text-center text-lg">
+          <p className="md:min-w-[400px]  text-center text-lg">
             Lorem ipsum dolor sit dipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation.

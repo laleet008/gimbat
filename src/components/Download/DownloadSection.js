@@ -2,17 +2,6 @@ import React, { useEffect, useState } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 
 const DownloadSection = () => {
-  const [showTopBtn, setShowTopBtn] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 400) {
-        setShowTopBtn(true);
-      } else {
-        setShowTopBtn(false);
-      }
-    });
-  }, []);
   const goToTop = () => {
     window.scrollTo({
       top: 0,
@@ -26,7 +15,7 @@ const DownloadSection = () => {
           Download gambits laucnher now
         </h1>
       </div>
-      <div className="flex justify-center text-center md:mt-12 mt-6">
+      <div className="flex justify-center md:text-center md:mt-12 mt-6">
         <p className="w-[800px] text-lg">
           Lorem ipsum dolor sit dipisicing elit, sed do eiusmod tempor
           incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -34,7 +23,7 @@ const DownloadSection = () => {
         </p>
       </div>
       <div className="flex justify-center">
-        <div className="w-[400px] justify-between flex md:mt-12 mt-8">
+        <div className="w-[400px] flex justify-between md:flex-row flex-col gap-8 md:mt-12 mt-8">
           <img
             src="assets/app-store.png"
             className="w-[160px]"

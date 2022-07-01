@@ -5,7 +5,7 @@ function HeroSection() {
     <div className="container-hero md:h-[90vh] py-2">
       <Header />
       <div className="md:px-32  flex md:flex-row flex-col-reverse s md:gap-40 xl:gap-48">
-        <div className="md:ml-36 md:mt-[-30px] md:block flex justify-center ">
+        <div className="md:ml-36 md:mt-[-30px]">
           <img src="assets/mobile.png" alt="phone" className="h-[620px] " />
         </div>
         <div className="text-white md:py-0 py-8 md:mx-0 mx-8">
@@ -23,12 +23,12 @@ function HeroSection() {
           <p className="text-3xl md:w-[400px] md:mt-20 mt-12">
             Take your phone to the next level
           </p>
-          <p className="md:w-[550px] text-gray-200 md:mt-20 mt-12">
+          <p className="md:w-[550px] text-gray-200 md:mt-16 mt-10">
             We have been working very hard to design the new version of our app.
             Finally it's ready. It comes with a lot of new features. Check it
             out now!
           </p>
-          <div className="w-[400px] justify-between flex md:mt-12 mt-8">
+          <div className="w-[400px] justify-between flex md:flex-row flex-col gap-8 md:mt-12 mt-8">
             <img
               src="assets/app-store.png"
               className="w-[160px]"

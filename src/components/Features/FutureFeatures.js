@@ -2,7 +2,7 @@ import React from "react";
 
 const FutureFeatures = () => {
   return (
-    <div className="future-feature md:h-[60vh] h-[58vh] px:py-12 py-6 text-white  md:px-0 px-8">
+    <div className="future-feature md:h-[60vh] xl:h-[55vh] h-[58vh] px:py-12 py-6 text-white  md:px-0 px-8">
       <div className="flex justify-center w-full">
         <h1 className="font-bold  text-[32px] tracking-wide  uppercase">
           Future feature

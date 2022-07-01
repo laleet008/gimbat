@@ -10,7 +10,7 @@ function Header() {
   }, []);
   return (
     <nav id="header" className=" z-30 top-0 text-white pt-2 lg:pt-4 ">
-      <div className=" px-16 flex  items-center justify-between mt-0  ">
+      <div className=" md:px-16 px-8 flex  items-center justify-between mt-0  ">
         <Link to="/" className="" href="/">
           <img
             src="assets/main-logo.png"
