@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosArrowUp } from "react-icons/io";
+import { PLAYSTORE } from "../../constants/url";
 
 const DownloadSection = () => {
   const goToTop = () => {
@@ -23,17 +24,14 @@ const DownloadSection = () => {
         </p>
       </div>
       <div className="flex justify-center">
-        <div className="w-[400px] flex justify-between md:flex-row flex-col gap-8 md:mt-12 mt-8">
-          <img
-            src="assets/app-store.png"
-            className="w-[160px]"
-            alt="appstore"
-          />
-          <img
-            src="assets/play-store.png"
-            alt="playstore"
-            className="w-[160px]"
-          />
+        <div className="md:mt-12 mt-8">
+          <a href={PLAYSTORE} trarget="_blank">
+            <img
+              src="assets/play-store.png"
+              alt="playstore"
+              className="w-[160px]"
+            />
+          </a>
         </div>
       </div>
       <button

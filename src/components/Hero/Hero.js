@@ -1,4 +1,5 @@
 import Header from "../Header/Header";
+import { PLAYSTORE } from "../../constants/url";
 
 function HeroSection() {
   return (
@@ -28,17 +29,14 @@ function HeroSection() {
             Finally it's ready. It comes with a lot of new features. Check it
             out now!
           </p>
-          <div className="w-[400px] justify-between flex md:flex-row flex-col gap-8 md:mt-12 mt-8">
-            <img
-              src="assets/app-store.png"
-              className="w-[160px]"
-              alt="appstore"
-            />
-            <img
-              src="assets/play-store.png"
-              alt="playstore"
-              className="w-[160px]"
-            />
+          <div className="md:mt-12 mt-8">
+            <a href={PLAYSTORE} trarget="_blank">
+              <img
+                src="assets/play-store.png"
+                alt="playstore"
+                className="w-[160px]"
+              />
+            </a>
           </div>
         </div>
       </div>
