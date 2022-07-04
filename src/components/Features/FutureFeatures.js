@@ -13,7 +13,7 @@ const FutureFeatures = () => {
           View sport results in real time, as well as lotery results and all
           kind of bet results. Don’t waste time searching for results online.
           Get notifications for the result of bets you’ve placed and set up your
-          preferances.
+          preferences.
         </p>
       </div>
       <div className="flex justify-center">

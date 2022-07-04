@@ -10,9 +10,9 @@ const Features = () => {
       </div>
       <div className="flex justify-center text-center md:mt-8 mt-4">
         <p className="md:w-[700px]">
-          Lorem ipsum dolor sit dipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation.
+          Lorem ipsum dolar sit dispisicing elit, sed do eiusmod tempor
+          inciidunt ut labore et dolore megan aliqua. Ut enim ad minim veniam,
+          quis nostrud exciteation.
         </p>
       </div>
       <div className="flex md:flex-row flex-col md:px-20 md:mt-12 mt-6 justify-between gap-12">
